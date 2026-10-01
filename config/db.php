@@ -11,11 +11,11 @@
  * ============================================================
  */
 
-if (!defined('DB_HOST'))    define('DB_HOST',    'localhost');
+if (!defined('DB_HOST'))    define('DB_HOST',    'sql109.infinityfree.com');
 if (!defined('DB_PORT'))    define('DB_PORT',    '3306');
-if (!defined('DB_NAME'))    define('DB_NAME',    'ohanabiz');
-if (!defined('DB_USER'))    define('DB_USER',    'root');
-if (!defined('DB_PASS'))    define('DB_PASS',    '');
+if (!defined('DB_NAME'))    define('DB_NAME',    'if0_43062172_db_ohanabiz');
+if (!defined('DB_USER'))    define('DB_USER',    'if0_43062172');
+if (!defined('DB_PASS'))    define('DB_PASS',    'ohana2026');
 if (!defined('DB_CHARSET')) define('DB_CHARSET', 'utf8mb4');
 
 if (!isset($pdo) || !($pdo instanceof PDO)) {
